@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #2F302C;
+}
+
+h1, h2{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #2F302C;
+}
+a{
+    text-decoration: none;
+    display: block;
+    color: #2F302C;
+}
+ul,li{
+    list-style: none;
+}
+.flex{
+    display: flex;
+}
+.space_between{
+    justify-content: space-between;
+}
+.align_item_center{
+    align-items: center;
+}
+.container{
+    max-width: 1392px;
+    margin: 0 auto;
+}
+.row {
+    padding: 100px 0 55px;
+    text-align: center;
+}
+
+/* header -------------------------- */
+
+header.header_area {
+    padding: 60px 0;
+}
+
+.menu ul li img {
+    display: inline-block;
+    position: absolute;
+}
+
+.menu ul li a {
+    display: inline-block;
+    padding-left: 44px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.menu ul.flex {
+    align-items: center;
+}
+.menu_right.flex a {
+    padding-left: 4px;
+}
+.memu.menu_right.flex img {
+    display: inline-block;
+    margin: 0;
+    padding-left: 44px;
+    width: 20px;
+    height: 20px;
+}
+/* banner_area -------------------------- */
+.banner_area {
+    background-image: url(images/banner_bg.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 612px;
+    background-size: cover;
+}
+.banner {
+    width: 584px;
+    margin-left: auto;
+}
+.banner h2 {
+    font-size: 20px;
+    padding-top: 114px;
+    padding-bottom: 20px;
+}
+.banner h1{
+    font-family: Montserrat;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100px;
+    padding-bottom: 10px;
+}
+h2.border_top {
+    border-top: 1px solid #2F302C;
+    padding: 20px 73px 15px 0;
+    display: inline-block;
+}
+.banner p {
+    color: #7E7F7C;
+}
+
+
+/* select_menu -------------------------- */
+.select_menu.flex li a {
+    margin: 20px;
+    font-weight: 700;
+    border-bottom: 2px solid #fff;
+    padding: 4px 0;
+}
+.select_menu.flex li a.active{
+    border-bottom: 2px solid #2F302C !important;
+}
+
+.select_menu.flex li a:hover {
+    border-bottom: 2px solid #2F302C;
+}
+.select_menu.flex {
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.single_product img {
+    width: 100%;
+    height: auto;
+}
+.products.flex {
+    margin-top: 72px;
+}
+section.feature_product .row {
+    padding-bottom: 0;
+}
+.single_product {margin: 0 auto;text-align: center;}
+
+.single_product a {
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 20px 0;
+}
+
+.single_product p {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.single_product h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+/* touch -------------------------- */
+.container.get_section.flex.space_between {
+    gap: 100px;
+    background: #F6F6F6;
+    padding-bottom: 75px;
+}
+section.get_in_touch {
+    height: 363px;
+}
+.get_touch_left {
+    position: relative;
+    height: 282px;
+    width: 685px;
+}
+.get_touch_left img {
+    position: absolute;
+    bottom: -136px;
+    width: 100%;
+    height: auto;
+    left: 20px;
+}
+.get_touch_right h1 {
+    margin-top: 97px;
+}
+
+.get_touch_right p {
+    padding: 16px 0 31px;
+    color: #7E7F7C;
+}
+
+.email_box input {
+    outline: none;
+    border: navajowhite;
+    border-bottom: 1px solid #ddd;
+    background: none;
+    height: 44px;
+    width: 55%;
+}
+.email_box.flex a {
+    padding: 10px 20px;
+    background: #2F302C;
+    color: #fff;
+    width: 30%;
+    text-align: center;
+    margin-left: 20px;
+}
+section.get_in_touch {
+    height: 363px;
+    padding: 100px  0;
+}
+.get_touch_right {
+    padding: 0 10px;
+}
+
+/* sofa_section    --------------- */
+
+.sofa_area.flex {
+    gap: 36px;
+}
+
+.single_sofa h2 {
+    font-size: 20px;
+}
+
+.single_sofa {
+    background: #F7F7F7;
+    padding:0 32px 0;
+}
+.single_sofa p {
+    color: #7E7F7C;
+    padding: 20px 20px 0 0;
+}
+.single_sofa a {
+    color: #7E7F7C;
+    margin-top: 40px;
+}
+.single_sofa a img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.single_sofa h2 {
+    padding-top: 48px;
+}
+.single_sofa.middle {
+    background: #E6EFEA;
+    text-align: center;
+}
+section.sofa_section {
+    padding: 100px 0;
+}
+.single_sofa.middle p {
+    padding: 10px 184px;
+}
+/* trusted_area    --------------- */
+section.trusted_area {
+    padding-bottom: 100px;
+}
+/* choose    --------------- */
+.choose.flex.space_between {
+    text-align: center;
+    gap: 20px;
+}
+
+.single_choose h3 {
+    font-size: 16px;
+    padding: 24px 0;
+}
+
+.single_choose p {
+    padding: 10px 40px;
+    color: #7E7F7C;
+}
+.choose.flex.space_between {
+    margin-top: 50px;
+}
+/* modern_area    --------------- */
+
+section.modern_area {
+    padding: 110px 0 100px;
+}
+
+.modern_bg.space_between.flex {
+    background: #F6F6F6;
+    gap: 40px;
+    align-items: center;
+    height: 373px;
+}
+
+.single_modern {
+    padding: 20px;
+    flex: 1;
+    position: relative;
+}
+span.discount {
+    padding: 17px 0;
+    display: inline-block;
+    color: #7E7F7C;
+}
+.single_modern h1 span {
+    background: #CE0000;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 3px 8px;
+    margin: 5px 0 0 10px;
+}
+p.star5 {
+    font-size: 26px;
+    margin: 20px 0 0;
+    color: #7E7F7C;
+}
+.modern_right {
+    text-align: right;
+}
+.modern_right p {
+    color: #7E7F7C;
+    text-align: right;
+    padding-right: 60px;
+}
+.modern_right a {
+    text-align: right;
+}
+a.buy_now_btn {
+    background: black;
+    color: #fff;
+    padding: 6px 63px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 22px;
+    margin-right: 60px;
+}
+.single_modern.modern_left {
+    margin-left: 60px;
+}
+.single_modern img {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: -167px;
+}
+
+
+
+/* section.review_area {
+    --------------- */
+section.review_area {
+    padding: 100px 0;
+}
+
+.row.review p {
+    margin-top: 20px;
+}
+.row.review {
+    width: 44%;
+    margin: 0 auto;
+}
+p.rvw_down {
+    color: #7E7F7C;
+    font-weight: 700;
+}
+
+.row.review h3 {
+    font-size: 26px;
+    letter-spacing: 4px;
+}
+.row.review img {
+    display: inline-block;
+    margin: 20px 0;
+    border: 1px solid #2F302C;
+    border-radius: 50%;
+    padding: 5px;
+}
+p.client_er_name {
+    color: #7E7F7C;
+    font-size: 14px;
+}
+.paragraph_rvw{
+    font-style: italic;
+}
+
+.footer_service.flex.space_between {
+    border-top: 1px solid #D4D4D4;
+    border-bottom: 1px solid #D4D4D4;
+    padding: 100px 0;
+}
+.single_footer h3 {
+    font-size: 20px;
+}
+.single_footer ul li a {
+    margin-top: 28px;
+    color: #7E7F7C;
+}
+.container.flex.space_between {
+    padding: 70px 0;
+}
+.footer_left p {
+    color: #7E7F7C;
+}
+.footer_right.flex a img {
+    margin-left: 32px;
+}
+section.choose_us_area {
+    padding-top: 100px;
+}
+.container.align_item_center.space_between.flex {
+    padding: 0 !important;
+}
